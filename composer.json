@@ -1,0 +1,53 @@
+{
+    "name": "tjventurini/footprints",
+    "type": "library",
+    "description": "A simple registration attribution tracking solution for Laravel 5.2+ (UTM Parameters and Referrers)",
+    "keywords": [
+        "footprints",
+        "tracking",
+        "utm",
+        "utm parameters",
+        "user tracking",
+        "attribution tracking"
+    ],
+    "homepage": "https://github.com/tjventurini/footprints",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyran Beasley",
+            "email": "kyranbeasley@gmail.com"
+        },
+        {
+            "name": "Thomas Venturini",
+            "email": "thomas@venturini.codes"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.2|~5.3",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "laravel/framework": "5.2",
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tjventurini\\Footprints\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tjventurini\\Footprints\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
